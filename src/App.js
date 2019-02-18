@@ -6,10 +6,8 @@ class Calculator extends Component {
         return (
             <div className="container">
                 <div className="calculator">
-                    <input className="calculator__display-result" id="display"/>
-                    <br/>
-                    <input className="calculator__display-input"/>
-                    <br/>
+                    <div className="calculator__display-result" id="display"></div>
+                    <div className="calculator__display-input"></div>
                     <button className="calculator__clear" id="clear">AC</button>
                     <button className="math calculator__divide" id="divide">/</button>
                     <button className="math calculator__multiply" id="multiply">x</button>
@@ -28,7 +26,6 @@ class Calculator extends Component {
                     <button className="btn calculator__number-two" id="two">2</button>
                     <button className="btn calculator__number-three" id="three">3</button>
                     <button className="calculator__operator-equal" id="equals">=</button>
-                    <br/>
                     <button className="calculator__number-zero" id="zero">0</button>
                     <button className="btn calculator__symbol" id="decimal">.</button>
                 </div>
